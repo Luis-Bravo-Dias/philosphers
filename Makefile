@@ -6,7 +6,7 @@
 #    By: lleiria- <lleiria-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/21 11:56:30 by lleiria-          #+#    #+#              #
-#    Updated: 2022/10/26 12:16:50 by lleiria-         ###   ########.fr        #
+#    Updated: 2022/10/28 15:48:00 by lleiria-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,7 @@ SRCS_		=	main.c \
 				create_threads.c \
 				checker.c \
 				routine.c \
+				taker.c \
 
 SRCS		=	$(addprefix $(_SRC), $(SRCS_))
 

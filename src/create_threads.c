@@ -6,7 +6,7 @@
 /*   By: lleiria- <lleiria-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 12:12:13 by lleiria-          #+#    #+#             */
-/*   Updated: 2022/10/26 12:57:49 by lleiria-         ###   ########.fr       */
+/*   Updated: 2022/10/28 15:31:31 by lleiria-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,11 @@ t_status	*init_thread(t_philo *ph)
 	return (status);
 }
 
+	// if(status->id % 2 == 0)
+	// 	ft_usleep(2000, status);
+	// if(!(status->id % 2 == 0) 
+	// && status->id == status->philo->number_of_philosophers)
+	// 	ft_usleep(500, status);
 void	*routine(void *arg)
 {
 	t_status	*status;

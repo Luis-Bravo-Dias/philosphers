@@ -6,7 +6,7 @@
 /*   By: lleiria- <lleiria-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/21 11:57:17 by lleiria-          #+#    #+#             */
-/*   Updated: 2022/10/26 12:59:44 by lleiria-         ###   ########.fr       */
+/*   Updated: 2022/10/28 15:44:00 by lleiria-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,8 +71,9 @@ int			check_limit(t_status *status);
 void		check_death(t_status *status);
 //main.c
 void		finish_him(t_status *status);
-//rotine.c
+//taker.c
 int			lets_take(t_status *status);
+//rotine.c
 int			lets_eat(t_status *status);
 void		let_go(t_status *status);
 void		counter(t_status *status);
